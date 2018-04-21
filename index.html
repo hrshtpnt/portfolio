@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="myApp">
+<head>
+	<title>Harshit Pant</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://code.angularjs.org/1.6.0-rc.1/angular.min.js"></script>
+	<script src="https://code.angularjs.org/1.6.0-rc.1/angular-route.min.js"></script>
+	<script src="/myWebsite/app.js"></script>
+	<script src="/myWebsite/controller/portfolioController.js"></script>
+	<script src="/myWebsite/controller/homepageController.js"></script>
+	<script src="/myWebsite/controller/blogController.js"></script>
+	<script src="/myWebsite/controller/adminController.js"></script>
+	<script src="/myWebsite/controller/postController.js"></script>
+	<script src="/myWebsite/assests/js/jquery.poptrox.min.js"></script>
+	<script src="/myWebsite/assests/js/skel.min.js"></script>
+	<link href="/myWebsite/assests/css/hpwork.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Nosifer" rel="stylesheet">
+</head>
+
+
+	<body ng-app="myApp" class="fullbody">
+		<nav class="navbar navbar-inverse navbar-static-top" style="margin-bottom: 0;">
+	  		<div class="container-fluid">
+	    	<!-- Brand and toggle get grouped for better mobile display -->
+	    		<div class="navbar-header">
+	      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      	<div class="jm-logo">
+			      		<a class="navbar-brand" href="#!/">
+			      			<span></span><img src="assests/images/logo.png" alt="logo" class="logoDesign"><span class="sr-only">(current)</span></a>
+			  		</div>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li><a data-toggle="collapse" href="#!/portfolio">Portfolio</a></li>
+			        <li class="dropdown">
+			          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Checkout <span class="caret"></span></a>
+			          <ul class="dropdown-menu dropDownNavbar">
+			            <li><a class="textnavbar"  href="#!/blog">Blog</a></li>
+			            <!--<li role="separator" class="divider"></li>-->
+			          </ul>
+			        </li>
+			      </ul>
+			      <div class="navbar-form navbar-left searchNavbar">
+					<script>
+					  (function() {
+					    var cx = '011636363800093813501:ysqbuw9gql4';
+					    var gcse = document.createElement('script');
+					    gcse.type = 'text/javascript';
+					    gcse.async = true;
+					    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+					    var s = document.getElementsByTagName('script')[0];
+					    s.parentNode.insertBefore(gcse, s);
+					  })();
+					</script>
+					<gcse:search></gcse:search>
+				</div>
+			      <ul class="nav navbar-nav navbar-right">
+			      	<li class="dropdown">
+			          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact&nbsp;<span class="caret"></span></a>
+			          <ul class="dropdown-menu dropDownNavbar">
+			            <li><a class="textnavbar" href="https://instagram.com/hrshtpnt">Instagram</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a class="textnavbar" href="https://www.facebook.com/harshit.pant.758">Facebook</a></li>
+			          </ul>
+			        </li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+				<div id ="mainview" ng-view="" class="homePageDimentions bordermainview"></div>
+	</body>
+</html>

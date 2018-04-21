@@ -665,7 +665,7 @@ position: relative;
         display: -ms-flex;
         display: flex;
         -moz-flex-direction: row;
-        -webkit-flex-direction: row !important;
+        -webkit-flex-direction: row;
         -ms-flex-direction: row;
         flex-direction: row;
         position: relative;

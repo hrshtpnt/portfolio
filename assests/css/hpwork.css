@@ -123,7 +123,8 @@ input.gsc-input {
     color: rgba(255, 255, 255, 0.65);
     line-height: 1.1;
 }
-.googleblogfonts {
+.google
+fonts {
     font-family: 'Nosifer', cursive;
 }
 .footertext {
@@ -201,72 +202,7 @@ input.gsc-input {
 /* The typewriter cursor effect */
 /*----------------------------------CSS for the blog-------------------------------------------------------*/
 
-.blogcontainer {
-  font-family: sans-serif;
-  background: rgb(220, 249, 255);
-}
 
-/* Header/Blog Title */
-.blogheading {
-  background: url(../images/blog.jpg) repeat;
-  padding: 30px;
-  text-align: center;
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-   
-  margin-left:1.5%;
-  float: left;
-  width: 72%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  margin-right: 1.5%;
-  padding-left: 20px;
-}
-.cursor {
-    cursor: pointer;
-}
-/* Fake image */
-.blogimagedata {
-  /*background-color: #aaa;*/
-  background-color: #DCF9FF;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media (max-width: 500px) {
-  .portfolioheading {
-    font-size: 25px;
-  }
-}
-
-@media (max-width: 500px) {
-  .leftcolumn, .rightcolumn { 
-    width: 100%;
-    padding: 0;
-  }
-}
 @media (max-width: 740px) {
         .searchNavbar {
             width: 100%;
